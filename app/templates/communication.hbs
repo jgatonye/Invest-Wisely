@@ -1,1 +1,10 @@
-{{outlet}}
+{{new-communication saveCommunication2="saveCommunication3"}}
+<ul>
+  <!-- //loop through each of the objects in the communiaction model and assign them the value communication -->
+  {{#each model as |communication|}}
+  <!-- assign variable in the template communication new value communication in component -->
+  {{communication-tile communication=communication}}
+  {{/each}}
+
+  </ul>
+  <!-- saving from the template and into the route -->

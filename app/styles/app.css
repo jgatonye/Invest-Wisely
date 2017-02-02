@@ -1,65 +1,85 @@
-body  {
-	padding-top: 70px;
-	background-color: #f8f8f8;
+body {
+  padding-top: 70px;
+  background-color: red;
 }
-.group:after,
-.group:before {
-	content: "";
-	display: table;
-	clear: both;
-}
-.title{
-	text-align: center;
-}
-.content{
-	background-color: #fff;
-	margin: 30px auto;
-	border-radius: 10px;
-}
-.jumbotron{
-	text-align: center;
 
+.group:after, .group:before {
+  content: "";
+  display: table;
+  clear: both;
 }
-.col1{
-	margin: 20px auto;
-	background-color: #fff;
-	border-radius: 10px;
-	text-align: center;
-	margin: 20px auto;
-	background-color: #fff;
-	border-radius: 10px;
-	text-align: center;
+
+.title {
+  text-align: center;
 }
+
+.content {
+  background-color: #e2e2e2;
+  margin: 30px auto;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+ul {
+  list-style: none;
+}
+
+.jumbotron {
+  text-align: center;
+}
+
+.col1 {
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+}
+
 
 /*testimonials*/
+
 .speech-bubble {
-    background-color: #f8f8f8;
-    border: 1px solid #c8c8c8;
-    border-radius: 5px;
-    width: 20%;
-    text-align: center;
-    padding: 20px;
-    position: absolute;
+  background-color: #f8f8f8;
+  border: 1px solid #c8c8c8;
+  border-radius: 5px;
+  width: 20%;
+  text-align: center;
+  padding: 20px;
+  position: absolute;
 }
 
 .speech-bubble .arrow {
-    border-style: solid;
-    position: absolute;
+  border-style: solid;
+  position: absolute;
 }
 
 .bottom {
-    border-color: #c8c8c8 transparent transparent transparent;
-    border-width: 8px 8px 0px 8px;
-    bottom: -8px;
+  border-color: #c8c8c8 transparent transparent transparent;
+  border-width: 8px 8px 0px 8px;
+  bottom: -8px;
 }
 
 .bottom:after {
-    border-color: #f8f8f8 transparent transparent transparent;
-    border-style: solid;
-    border-width: 7px 7px 0px 7px;
-    bottom: 1px;
-    content: "";
-    position: absolute;
-    left: -7px;    
+  border-color: #f8f8f8 transparent transparent transparent;
+  border-style: solid;
+  border-width: 7px 7px 0px 7px;
+  bottom: 1px;
+  content: "";
+  position: absolute;
+  left: -7px;
 }
- /*end of testimonials*/
+
+
+/*end of testimonials*/
+
+
+/*image for communications*/
+
+img {
+  width: 310px;
+  height: 210px;
+}

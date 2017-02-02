@@ -12,6 +12,9 @@ Router.map(function() {
   this.route('communication');
   this.route('industrial');
   this.route('Financial');
+  this.route('communicationchild', {
+    path: '/communicationchild/:communication_id'
+  });
 });
 
 export default Router;

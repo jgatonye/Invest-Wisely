@@ -1,0 +1,26 @@
+{{#if addNewCompany}}
+  <h1>New Company</h1>
+  <div>
+    <form>
+      <div class="form-group">
+        <label for="name">Company Name</label>
+        {{input value=name id="name" placeholder='company name'}}
+      </div>
+
+      <div class="form-group">
+        <label for="image">Image</label>
+        {{input value=type id="type" placeholder='image'}}
+      </div>
+
+      <div class="form-group">
+        <label for="content">Content</label>
+        {{input value=content id="content" placeholder='company info'}}
+      </div>
+
+<!-- action save begins from the component and moves to the communication template -->
+      <button {{action 'saveCommunication1'}}>Save</button>
+    </form>
+  </div>
+{{else}}
+  <button {{action 'companyFormShow'}}>New Company</button>
+{{/if}}
