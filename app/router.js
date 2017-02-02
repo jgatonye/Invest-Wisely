@@ -11,7 +11,10 @@ Router.map(function() {
   this.route('agriculture');
   this.route('communication');
   this.route('industrial');
-  this.route('Financial');
+  this.route('financial');
+  this.route('company', {path: '/company/:finance_id'});
+  this.route('olipia', {path: '/olipia/:industrial_id'});
+  this.route('farming', {path: '/farming/:agriculture_id'});
 });
 
 export default Router;

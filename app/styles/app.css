@@ -1,65 +1,151 @@
-body  {
-	padding-top: 70px;
-	background-color: #f8f8f8;
+body {
+    padding-top: 70px;
+    background-color: #f8f8f8;
 }
-.group:after,
-.group:before {
-	content: "";
-	display: table;
-	clear: both;
+.brand {
+    color: blue;
+    font-family: serif;
 }
-.title{
-	text-align: center;
-}
-.content{
-	background-color: #fff;
-	margin: 30px auto;
-	border-radius: 10px;
-}
-.jumbotron{
-	text-align: center;
 
-}
-.col1{
-	margin: 20px auto;
-	background-color: #fff;
-	border-radius: 10px;
-	text-align: center;
-	margin: 20px auto;
-	background-color: #fff;
-	border-radius: 10px;
-	text-align: center;
+.title {
+    text-align: center;
 }
 
 /*testimonials*/
-.speech-bubble {
-    background-color: #f8f8f8;
-    border: 1px solid #c8c8c8;
-    border-radius: 5px;
-    width: 20%;
+
+.col1 {
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 10px;
     text-align: center;
-    padding: 20px;
-    position: absolute;
+    margin: 20px auto;
+}
+/*testimonials*/
+
+/*adding item list*/
+.add-item{
+    background-color: grey;
+    border-radius: 10px;
+    margin: 30px auto;
+    width: 50%;
+    text-align: center;
+}
+/*end of adding item list*/
+
+
+/*values*/
+
+.values {
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px auto;
 }
 
-.speech-bubble .arrow {
-    border-style: solid;
-    position: absolute;
+.values li {
+    list-style: none;
 }
 
-.bottom {
-    border-color: #c8c8c8 transparent transparent transparent;
-    border-width: 8px 8px 0px 8px;
-    bottom: -8px;
-}
 
-.bottom:after {
-    border-color: #f8f8f8 transparent transparent transparent;
-    border-style: solid;
-    border-width: 7px 7px 0px 7px;
-    bottom: 1px;
+/*finance*/
+
+.finance {
+    border: 2px solid #00ff99;
+    margin: 30px auto;
+    text-align: center;
+    width: 50%;
+    padding: 20px 0px 20px 0;
+    border-radius: 10px;
+}
+/*finance*/
+.group:after,
+.group:before {
     content: "";
-    position: absolute;
-    left: -7px;    
+    display: table;
+    clear: both;
 }
- /*end of testimonials*/
+.content{
+    background-color:#f2f2f2;
+    margin: 30px auto;
+    padding: 15px;
+    border-radius: 10px;
+}
+.img1 >img{
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+/* End ofcontent*/
+
+
+/*footer*/
+
+.site-footer {
+    background-color: #222;
+    color: #fff;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+.botton-footer {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #b2b2b2;
+    color: #b2b2b2;
+}
+
+.footer-nav {
+    text-align: right;
+    list-style: none;
+}
+
+.footer-nav li {
+    display: inline;
+}
+
+.footer-nav li:not(:first-child):before {
+    content: "|";
+    padding: 0 10px;
+}
+
+.footer-nav a {
+    color: #b2b2b2;
+}
+
+.footer-nav a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+/*bank details*/
+.bank{
+    background-color: red;
+    border-radius: 10px;
+   padding: 20px 0px 20px 0;
+   margin: 20px auto; 
+}
+/*End of Bank Details*/
+
+/*Index page*/
+.investment{
+    background-image: url(http://www.stage2planning.com/hs-fs/hub/13035/file-13127158-jpg/images/financial-planning.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
+.homePage{
+    text-align: center;
+    font-family: serif;
+}
+.logo{
+    margin: 20px auto;
+    width: 50%;
+}
+
+/*End of index page*/
+.button{
+    padding-top: 20px;
+    float: right;
+}

@@ -1,0 +1,14 @@
+<li>
+			<div class="content group">
+					 {{#link-to 'olipia' industrial.id}}<div class="col-md-6 img1">
+					 	<img src="{{industrial.image}}">
+					 </div>
+					 <div class="col-md-6">
+					 	<h2>{{industrial.name}}</h2> <small>The Industries of choice</small>
+					 	 <br>
+					  	<p>{{industrial.content}}</p>
+					 </div>{{/link-to}}
+			</div>
+			<button {{action 'addToCart' industrial}}>Favorite</button>
+			
+		</li>

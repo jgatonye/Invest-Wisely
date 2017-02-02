@@ -1,0 +1,16 @@
+<li>
+		<div class="content group">
+				 {{#link-to 'farming' agriculture.id}}<div class="col-md-6 img1">
+				 	<img src="{{agriculture.image}}">
+				 </div>
+				 <div class="col-md-6">
+				 	<h2>{{agriculture.name}}</h2> <small>Farming made easy</small>
+				 	 <br>
+				  	<p>{{agriculture.content}}</p>
+				  	<div class="button">
+				  		<button {{action 'addToCart' agriculture}}>Favorite</button>
+				  	</div>
+				 </div>{{/link-to}}
+		</div>
+		
+	</li>

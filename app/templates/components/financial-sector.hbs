@@ -1,0 +1,35 @@
+{{#if newCompanyForm}}
+<div class="add-item">
+
+	<h1>Register Your Company Today</h1>
+	<div>
+	  <form id="form">
+	    <div class="form-group">
+	      <label for="name">Enter The Company </label>
+	      {{input value=name id="name"}}
+	    </div>
+
+	    <div class="form-group">
+	      <label for="image">Enter a cool logo</label>
+	      {{input  value=image id="image"}}
+	    </div>
+
+	    <div class="form-group">
+	      <label for="content">Company Description</label>
+	      {{input value=content id="content"}}
+	    </div>
+	    <button class="btn btn btn-primary btn-md" {{action 'saveCompany'}}>Save Company</button>
+	  </form>
+	</div>
+</div>
+{{else}}
+  <button class="btn btn-danger" {{action 'newCompanyForm'}}>Register Company</button>
+{{/if}}
+
+
+
+
+
+
+
+

@@ -1,0 +1,35 @@
+<div class="bank">
+	This is  {{finance.name}} get info,
+	<br>
+	<p class="text-justify">{{finance.content}}.</p>
+</div>
+<br>
+<h3>Below is the financial forcast over previous years:</h3>
+<small>Summary of cash flows</small>
+<div class="forecast">
+	<dl class="dl-horizontal">
+		<dt>2015 Budgeted profit</dt>
+		<dd>Ksh.23,555,655</dd>
+		<dt>2015 Actual profit</dt>
+		<dd>Ksh.24,456,456</dd>
+		<dt>Increased Profit 2015</dt>
+		<dd>Ksh.234567</dd>
+		<dt>Earning per share</dt>
+		<dd>1.2</dd>
+		<dt>Divided Paid</dt>
+		<dd>shs.345per share</dd>
+		<dt>Increased in E.P.S</dt>
+		<dd>Ksh.345</dd>
+	</dl>
+</div>
+<small>Invest today in {{finance.name}} and secure your finances</small>
+
+
+{{!-- company review section --}}
+	<h2> Reviews </h2>
+	<ul>
+	  {{#each rental.reviews as |review|}}
+	    {{review-tile review=review}}
+	  {{/each}}
+	</ul>
+{{!-- End company review section --}}

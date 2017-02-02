@@ -1,1 +1,12 @@
-{{outlet}}
+
+<p class="finance h2">Financial Sector <br><small>The Investment of choice</small></p>
+	{{financial-sector saveCompany='saveCompany'}}
+<ul>
+	{{#each model.finances as |finance|}}
+	{{company-tile finance=finance}}
+	{{/each}}
+</ul>
+
+
+
+
