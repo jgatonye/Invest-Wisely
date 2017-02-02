@@ -1,0 +1,13 @@
+<li>
+		<div class="content group">
+				 {{#link-to 'company' finance.id}}<div class="col-md-6 img1">
+				 	<img src="{{finance.image}}">
+				 </div>
+				 <div class="col-md-6">
+				 	<h2>{{finance.name}}</h2> <small>We secure your finances</small>
+				 	 <br>
+				  	<p>{{finance.content}} <br> <span class="glyphicon glyphicon-thumbs-up"></span></p>
+				 </div>{{/link-to}}
+		</div>	
+		<button {{action 'addToCart' finance}}>Favorite</button>	
+	</li>		

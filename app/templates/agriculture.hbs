@@ -1,1 +1,8 @@
-{{outlet}}
+<p class="finance h2">Agricultural Sector <br><small>Farming is the backbone of any society</small></p>
+{{financial-sector saveCompany='saveCompany'}}
+
+<ul>
+	{{#each model as |agriculture|}}
+	{{agriculture-tile agriculture=agriculture}}
+	{{/each}}
+</ul>

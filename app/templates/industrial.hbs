@@ -1,1 +1,8 @@
-{{outlet}}
+<p class="finance h2">Industrial Sector <br><small>Invest today for a better tomorrow</small></p>
+{{financial-sector saveCompany='saveCompany'}}
+
+<ul>
+	{{#each model as |industrial|}}
+	{{industrial-tile industrial=industrial}}
+	{{/each}}
+</ul>
