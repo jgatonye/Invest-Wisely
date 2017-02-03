@@ -9,6 +9,10 @@ body {
 
 .title {
     text-align: center;
+    font-size: 35px !important;
+    color: #000099 !important;
+    font-family: 'Lobster', cursive;
+
 }
 
 /*testimonials*/
@@ -19,6 +23,12 @@ body {
     border-radius: 10px;
     text-align: center;
     margin: 20px auto;
+}
+
+.testimonial{
+    text-align: center;
+    margin: 50px;
+
 }
 /*testimonials*/
 
@@ -36,10 +46,13 @@ body {
 /*values*/
 
 .values {
-    background-color: #fff;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(http://www.hconsulting.co.uk/wp-content/uploads/2016/05/core_values.jpg);
+    background-size: cover;
+    padding: 100px;
     border-radius: 10px;
     text-align: center;
     margin: 20px auto;
+    color: white;
 }
 
 .values li {
@@ -121,23 +134,34 @@ ul{
 
 /*bank details*/
 .bank{
-    background-color: red;
+    background-color: gray;
     border-radius: 10px;
    padding: 20px 0px 20px 0;
    margin: 20px auto; 
+}
+.h3{
+    text-align: center;
+}
+
+.financeDetails{
+    border-left: 2px solid gray;
 }
 /*End of Bank Details*/
 
 /*Index page*/
 .investment{
-    background-image: url(http://www.stage2planning.com/hs-fs/hub/13035/file-13127158-jpg/images/financial-planning.jpg);
+    background-image: url(http://www.go7.us/wp-content/uploads/photodune-3518938-investment-word-bank-facade-making-investments-m.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
     width: 100%;
-    height: auto;
 }
-.homePage{
-    text-align: center;
-    font-family: serif;
+.header1{
+border-radius: 10px;
+text-align: center;
+font-family: 'Lobster', cursive;
+color: #ffffff;
+font-size: 50px;
 }
 .logo{
     margin: 20px auto;
@@ -148,4 +172,15 @@ ul{
 .button{
     padding-top: 20px;
     float: right;
+}
+.cartDisplay{
+    background-color:#e0ebeb;
+    margin: 30px auto;
+    padding: 15px;
+    border-radius: 10px;
+    list-style: none;
+}
+.viewedCompany{
+    color: #0000b3;
+    font-family: 'BioRhyme', serif;
 }

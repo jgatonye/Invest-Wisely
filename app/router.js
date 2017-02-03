@@ -15,6 +15,7 @@ Router.map(function() {
   this.route('company', {path: '/company/:finance_id'});
   this.route('olipia', {path: '/olipia/:industrial_id'});
   this.route('farming', {path: '/farming/:agriculture_id'});
+  this.route('safaricom', {path: '/safaricom/:communication_id'});
 });
 
 export default Router;

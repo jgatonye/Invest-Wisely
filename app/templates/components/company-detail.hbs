@@ -1,32 +1,42 @@
 <div class="bank">
-	This is  {{finance.name}} get info,
-	<br>
+	<p class="h3"> The {{finance.name}}</p>
+	<small>The Investment you can trust</small>
 	<p class="text-justify">{{finance.content}}.</p>
 </div>
 <br>
 <h3>Below is the financial forcast over previous years:</h3>
-<small>Summary of cash flows</small>
-<div class="forecast">
-	<dl class="dl-horizontal">
-		<dt>2015 Budgeted profit</dt>
-		<dd>Ksh.23,555,655</dd>
-		<dt>2015 Actual profit</dt>
-		<dd>Ksh.24,456,456</dd>
-		<dt>Increased Profit 2015</dt>
-		<dd>Ksh.234567</dd>
-		<dt>Earning per share</dt>
-		<dd>1.2</dd>
-		<dt>Divided Paid</dt>
-		<dd>shs.345per share</dd>
-		<dt>Increased in E.P.S</dt>
-		<dd>Ksh.345</dd>
-	</dl>
+<div class="row">
+	<div class="col-md-6">
+		<small>Summary of cash flows</small> <br>
+		<div class="forecast">
+			<dl class="dl-horizontal">
+				<dt>2015 Budgeted profit</dt>
+				<dd>Ksh.23,555,655</dd>
+				<dt>2015 Actual profit</dt>
+				<dd>Ksh.24,456,456</dd>
+				<dt>Increased Profit 2015</dt>
+				<dd>Ksh.234567</dd>
+				<dt>Earning per share</dt>
+				<dd>1.2</dd>
+				<dt>Divided Paid</dt>
+				<dd>shs.345per share</dd>
+				<dt>Increased in E.P.S</dt>
+				<dd>Ksh.345</dd>
+			</dl>
+		</div>
+	</div>
+	<div class="col-md-6 financeDetails">
+		<h2>What it means to invest in {{finance.name}} </h2>
+		<p>Employee benefit plans provide benefits to both employees and former employees. One example is a health and welfare benefit plan that provides medical, dental, vision, vacation, and dependent care (just to name a few) benefits to employees and former employees.
+        The footnotes also spell out details about the company’s expense and unpaid liability for employees’ retirement and pension plans. These details include the obligation of the business to pay for post-retirement health and medical costs of retired employees.</p> <br>By <br> <small>Gatonye Maina, CEO</small>
+
+	</div>
 </div>
 <small>Invest today in {{finance.name}} and secure your finances</small>
 
 
 {{!-- company review section --}}
-	<h2> Reviews </h2>
+	<h4> Reviews </h4>
 	<ul>
 	  {{#each rental.reviews as |review|}}
 	    {{review-tile review=review}}
